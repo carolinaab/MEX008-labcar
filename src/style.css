@@ -1,0 +1,85 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+  
+      
+.fondo-hero  {
+
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+ol,
+ul {
+  list-style: none;
+  display: flex;
+  
+}
+.navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+   }
+
+   navbar ol {
+       display: flex;
+       height: inherit;
+   }
+   .navbar ol li {
+       height: inherit;
+   }
+   .navbar a {
+       color: #2b2b2b;
+       text-decoration: none;
+       height: inherit;
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+        width: 100%
+    }
+    ol,
+    li:hover {
+        color:grey;
+        align-items: center;
+    } 
+.menu {
+    display: flex;
+    height: inherit;
+}
+img.celular {
+    align-content: center;
+    background-color:#f7b617;
+    margin-top: 0%;
+ 
+}
+/* #f7b617 */
+/* #2b2b2b footer */
+.informacion {
+    background: #f7b617;
+}
+.conduce {
+    background-image: url(../conduce.jpg);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    display: flex;
+    height:50vh;
+    width: 100%
+    }
+    .tarifa {
+        background: #f7b617;
+        background-size:100% auto;
+        display: flex;
+        height:50vh;
+        width: 100%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+
+    }
+    .footer {
+        background: #2b2b2b;
+        height:50vh;
+        width: 100%
+    }
