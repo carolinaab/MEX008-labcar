@@ -1,14 +1,54 @@
-*{
-    margin: 0%;
+* {
     padding: 0%;
-
+    margin: 0%;
 }
-/* .taxi {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+
+  
+      
+
+ol,
+ul {
+  list-style: none;
+  display: flex;
+  
+}
+.navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+   }
+
+   
+   .navbar ol li {
+       height: inherit;
+   }
+   .navbar a {
+       color: #2b2b2b;
+       text-decoration: none;
+       height: inherit;
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+        width: 100%
+    }
+    ol,
+    li:hover {
+        color:grey;
+        align-items: center;
+    } 
+.menu {
+    display: flex;
+    height: inherit;
+}
+.hero {
     width: 100%;
-    we
+    height: 100vh;
+    background-image: url(../src/labcar/img/taxi.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     
 
-} */
+}
+
