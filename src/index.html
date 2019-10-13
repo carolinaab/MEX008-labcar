@@ -32,34 +32,35 @@
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Viaja <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Conduce</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Inicia sesión</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
+                    </a> -->
+                <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li> -->
             </ul>
         </div>
     </nav>
 
     <main>
         <!-- hero -->
+
         <section class="hero">
             <div class="disfruta-viaje">
                 <h1>Disfruta del viaje</h1>
@@ -69,6 +70,9 @@
                 <button id="registrate" class="registrate">Registrate</button>
                 <p class="bien">O bien</p>
                 <button id="conviertete" class="conviertete">Conviértete en conductor</button>
+
+            </div>
+            <div class="hero-movile">
 
             </div>
 
@@ -105,137 +109,89 @@
         </section>
 
         <!-- tarifas -->
-        <section class="tarifa">
+        <section class="contenido-tarifa">
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7972222355334!2d-99.16541498526462!3d19.42116548689077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff375cae6ed7%3A0xb4572b930d352c69!2sCOW+Roma!5e0!3m2!1ses!2smx!4v1563566417230!5m2!1ses!2smx"
                     width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                </iframe>
             </div>
             <div class="tarifa">
                 <h4>Tarifas</h4>
                 <p>Consulta las tarifas LabCar aqui</p>
+                <div class="contenido-inicio">
+                    <label for="inicio"> <img src="../src/labcar/img/circulo.png" alt=""></label>
+                    <input name="inicio" type="text" placeholder="inicie su punto de partida">
+                    <br>
 
-                <label for="inicio"> <img src="../src/labcar/img/circulo.png" alt=""></label>
-                <input name="inicio" type="text" placeholder="inicie su punto de partida">
+                </div>
+                <div class="contenido-final">
+                    <label for="final"> <img src="../src/labcar/img/flecha.png" alt=""></label>
+                    <input name="final" type="text" placeholder="ingrese su destino">
 
-                <label for="final"> <img src="../src/labcar/img/flecha.png" alt=""></label>
-                <input name="final" type="text" placeholder="ingrese su destino">
-
+                </div>
+                <input type="button" value="¡Trazar ruta!">
 
             </div>
         </section>
     </main>
-    <footer class="page-footer font-small unique-color-dark">
-
-
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left mt-5">
-
-            <!-- Grid row -->
-            <div class="row mt-3">
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-linkedin-in"></i>
-                    <i class="fab fa-apple"></i>
-
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Products</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <a href="#!">Viaja</a>
-                    </p>
-                    <p>
-                        <a href="#!">Conduce</a>
-                    </p>
-                    <p>
-                        <a href="#!">Ciudades</a>
-                    </p>
-                    <p>
-                        <a href="#!">Entregas</a>
-                    </p>
-                    <p>
-                        <a href="#!">Cómo funciona</a>
-                    </p>
-                    <p>
-                        <a href="#!">Países</a>
-                    </p>
-                    <p>
-                        <a href="#!">Seguridad</a>
-                    </p>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                    <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>
-                        <a href="#!">Oportunidades</a>
-                    </p>
-                    <p>
-                        <a href="#!">Nuestra historia</a>
-                    </p>
-                    <p>
-                        <a href="#!">API de labcar</a>
-                    </p>
-                    <p>
-                        <a href="#!">Eventos</a>
-                    </p>
-                    <p>
-                        <a href="#!">Desarrolladores</a>
-                    </p>
-                    <p>
-                        <a href="#!">Servicios</a>
-                    </p>
-                    <p>
-                        <a href="#!">Laboratoria</a>
-                    </p>
-                    <p>
-                        <a href="#!">Coders</a>
-                    </p>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-                    <!-- Links -->
-
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
-                    <figure>
-                        <img src="../src/labcar/img/google-play.png" alt="google Play">
-                    </figure>
-                    <figure>
-                        <img src="../src/labcar/img/app-store.png" alt="google Play">
-                    </figure>
-                </div>
-                <!-- Grid column -->
-
-            </div>
-            <!-- Grid row -->
-
+    <footer class="footer">
+        <div class="footer-header">
+            <figure>
+                <img src="../src/labcar/img/logo-blanco.png" alt="logo blanco">
+            </figure>
         </div>
-        <!-- Footer Links -->
+        <hr>
+        <div class="contenido-list">
+            <div class="contenido-list1">
 
+                <ul class="primer-ul">
+                    <li>Viaja</li>
+                    <li>Conduce</li>
+                    <li>Ciudades</li>
+                    <li>Ciudades</li>
+                    <li>Entregas</li>
+                    <li>Cómo funciona?</li>
+                    <li>Países</li>
+                    <li>Seguridad</li>
+                </ul>
+            </div>
+            <div class="contenido-list2">
+                <ul class="segunda-ul">
+                    <li>Oportunidades</li>
+                    <li>Nuestra historia</li>
+                    <li>API de LabCar </li>
+                    <li>Eventos</li>
+                    <li>Desarrolladores</li>
+                    <li>Servicios</li>
+                    <li>Laboratoria</li>
+                    <li>Coders</li>
+                </ul>
+            </div>
+            <div class="contenido-social">
+                <figure>
+                    <img src="../src/labcar/img/app-store.png" alt="app store">
+                </figure>
+                <figure>
+                    <img src="../src/labcar/img/google-play.png" alt="play store">
+                </figure>
+            </div>
+        </div>
+
+        <div class="social ">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-apple"></i>
+        </div>
+        <hr>
+        <p>&copy 2017 LabCar Technologies Inc.</p>
 
 
     </footer>
-    <!-- Footer -->
+
+
 
 
 
