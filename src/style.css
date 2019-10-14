@@ -14,8 +14,213 @@
 .disfruta-viaje{
     display: none;
 }
+.hero-movil{
+    background-color: #f7b617;
+    width: 85%;
+    height: 45%;
+    float: right;
+    margin-top: 45%;
+    color:white;
+    font-size: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 2rem;
+}
+.info-contenido{
+    display: none;
+}
+.informacion{
+    background-color: #f7b617;
+    height: 80vh;
+}
+.informacion-movil{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-movil {
+    border: 1px solid white;
+    width: 100%;
+    height: 60vh;
+    color: white;
+    padding-top: 1rem;
+}
+.img-movil .celular-movil{
+   padding: 1rem;
+   width: 200px;
+}
 
- 
+/* conviertete en conductor */
+.conviertete-btn{
+    background-color:  #f7b617;
+    width:50%;
+    height: 15%;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-family: 'Segoe UI';
+    color:white;
+    
+}
+
+
+
+
+/* conduce */
+.conduce {
+    background-image: url(../src/labcar/img/conduce.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height:auto;
+   }
+   .info-texto{
+       width: 100%;
+       height: 40vh;
+       color: white;
+       padding-left: 2rem;
+       padding-top: 1.5rem;
+       background:rgba(17, 17, 17, 0.5);
+       text-align: center;
+       
+   }
+
+   /* trazar ruta */
+
+.map{
+    display: none;
+}
+
+.contenido-tarifa{
+    background:#f7b617;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.tarifa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    font-size: 20px;
+   padding-top: 5rem;
+}
+.contenido-inicio input,
+.contenido-final input
+{
+    background: #f7b617;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 20rem;
+    height: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+     
+}
+
+::-webkit-input-placeholder { color: white; }
+
+
+.tarifa input[type="button"]{
+    border-radius: 3px;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+
+/* footer movil */
+.contenido-list2{
+    display: none;
+}
+/* footer */
+.footer {
+    background: #2b2b2b;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+.footer-header {
+    height: 15%;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 4rem;
+}
+hr {
+   height: 10px;
+   width: 90%;
+   background-color: white;
+   margin-left: 5%;
+
+ }
+
+   .contenido-list{
+       display: flex;
+       justify-content: space-between;
+       align-items: flex-start;
+       
+   }
+   .contenido-list1{
+       padding-right: 20%;
+      
+   }
+
+   .primer-ul{
+       display: flex;
+       color: aliceblue;
+       justify-content: left;
+       flex-direction: column;
+       padding-left: 3rem;
+       line-height: 2.5rem;
+  }
+   .segunda-ul {
+       display: flex;
+       color: aliceblue;
+       justify-content: left;
+       flex-direction: column;
+       line-height: 2.5rem;
+   }
+
+   .contenido-social{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-end;
+       align-items: flex-end;
+       width: 20%;
+       padding-top: 15%;
+       padding-right: 5%;
+      
+   }
+   .social {
+       color: white;
+       display: flex;
+       padding-left: 3rem;
+     
+   }
+    .social i {
+        padding: 1rem;
+       
+    }
+    .footer p {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
 
 @media  (min-width: 700px) { 
 body {
@@ -106,9 +311,12 @@ ul {
        color:white;
        text-align: center;
        font-size: 15px;
-       
-      
-   }
+       display:block;
+       }
+
+       .hero-movil{
+           display:none;
+       }
    section div h1 {
        padding-top: 10%
    }
@@ -122,13 +330,12 @@ ul {
 
  /* informacion */
  .informacion {
-  
-    background-color:  #f7b617;
+    background-color: #f7b617;
     background-size: cover;
     height: 90vh;
  }
  .info-contenido {
-    
+     display: block;
      width:80%;
      position: relative;
      height: 70vh;
@@ -137,8 +344,8 @@ ul {
      border-left: none;
      color: white;
      text-align: right;
-     
- }
+}
+
 
 #texto {
    padding-top: 5%;
@@ -153,6 +360,9 @@ ul {
      padding-top: 5%;
      margin-right: 10%;
     
+}
+.informacion-movil{
+    display: none;
 }
 
 /* conduce */
@@ -335,7 +545,5 @@ outline: none;
          justify-content: center;
          align-items: center;
      }
-     .hero-movile{
-         display: none;
-     }
+    
     }
